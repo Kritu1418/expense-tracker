@@ -2,7 +2,7 @@ import axios from "axios";
 import { useAuthStore } from "../context/authStore";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api",
+  baseURL: "https://spendly-backend-u1z5.onrender.com/api",
 });
 
 API.interceptors.request.use((config) => {
